@@ -2,7 +2,7 @@
 
 {% block content %}
     {% if form.errors %}
-        <p>Tu nombre de usuario y contraseña no coinciden. Por favor, intenta de nuevo</p>
+        <p>El nombre de usuario y contraseña no coinciden. Por favor, intenta de nuevo</p>
     {% endif %}
 
     <form method="post" action="{% url 'login' %}">
